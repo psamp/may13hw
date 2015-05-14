@@ -30,7 +30,6 @@ function sum(x,y){
   var ans = x + y;
   return "The answer is " + ans + ".";
 }
-console.log(sum)
 
 // Q2
 // Write a function named `avg` that takes 3 parameters
@@ -38,7 +37,7 @@ console.log(sum)
 
 function avg (x, y, z) {
   x = 87;
-  y = 43;
+  y = 43;gg
   z = 35;
   var ans = x + y + z / 3;
   return "The average is " + ans + ".";
@@ -107,7 +106,7 @@ function madlib(wordOne, wordTwo, wordThree, wordFour) {
   var sentenceOne= "What did the ";
   var sentenceTwo = "say when the engineer ";
   var sentenceThree = "to link up a .scss "
-  var sentenceFour = "SASSin me!"
+  var sentenceFour = "sassing me!"
   var fullSentence = sentenceOne + wordOne + sentenceTwo + wordTwo + sentenceThree + wordThree + wordFour + sentenceFour;
   return fullSentence;
 
