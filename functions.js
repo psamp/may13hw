@@ -37,7 +37,7 @@ function sum(x,y){
 
 function avg (x, y, z) {
   x = 87;
-  y = 43;gg
+  y = 43;
   z = 35;
   var ans = x + y + z / 3;
   return "The average is " + ans + ".";
