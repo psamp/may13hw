@@ -44,7 +44,7 @@ function avg (x, y, z) {
 
 function getLength(myName) {
   var myNameLength = myName.length;
-  return "My name is " + myNameLength + " letters long."
+  return "My name is " + myNameLength + " letters long.";
 }
 
 
@@ -75,7 +75,7 @@ function greaterThan(x, y) {
 function greet(teachersName) {
 var commandGreet = "Hello, " + teachersName + "!";
 return commandGreet;
-}"Tim and J.D."
+}
 
 // Q6
 // Write a function called `madlib` that takes
@@ -91,8 +91,8 @@ return commandGreet;
 function madlib(wordOne, wordTwo, wordThree, wordFour) {
   var sentenceOne= "What did the ";
   var sentenceTwo = " say when the engineer ";
-  var sentenceThree = " to link up a .scss "
-  var sentenceFour = " sassing me!"
+  var sentenceThree = " to link up a .scss ";
+  var sentenceFour = " sassing me!";
   var fullSentence = sentenceOne + wordOne + sentenceTwo + wordTwo + sentenceThree + wordThree + wordFour + sentenceFour;
   return fullSentence;
 
