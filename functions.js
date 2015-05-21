@@ -25,8 +25,6 @@
 // parameters and returns the sum of those 2 numbers.
 
 function sum(x,y){
-  x = 10;
-  y = 110;
   var ans = x + y;
   return "The answer is " + ans + ".";
 }
@@ -36,9 +34,6 @@ function sum(x,y){
 // and returns the average of those 3 numbers.
 
 function avg (x, y, z) {
-  x = 87;
-  y = 43;
-  z = 35;
   var ans = x + y + z / 3;
   return "The average is " + ans + ".";
 }
@@ -48,7 +43,6 @@ function avg (x, y, z) {
 // parameter (a string) and returns the length
 
 function getLength(myName) {
-  myName = "Princess";
   var myNameLength = myName.length;
   return "My name is " + myNameLength + " letters long."
 }
@@ -62,11 +56,8 @@ function getLength(myName) {
 
 
 function greaterThan(x, y) {
-  
-  x = 478;
-  y = 876;
 
-  if (y > x) {
+  if (x > y) {
     return true;
   } else {
     return false;
@@ -82,10 +73,9 @@ function greaterThan(x, y) {
 
 
 function greet(teachersName) {
-teachersName = "Tim and J.D.";
 var commandGreet = "Hello, " + teachersName + "!";
 return commandGreet;
-}
+}"Tim and J.D."
 
 // Q6
 // Write a function called `madlib` that takes
@@ -99,14 +89,10 @@ return commandGreet;
 // sentence: "quick brown fox jumps over the fence"
 
 function madlib(wordOne, wordTwo, wordThree, wordFour) {
-  wordOne = "browser ";
-  wordTwo = "tried ";
-  wordThree = "file? ";
-  wordFour = "'Stop ";
   var sentenceOne= "What did the ";
-  var sentenceTwo = "say when the engineer ";
-  var sentenceThree = "to link up a .scss "
-  var sentenceFour = "sassing me!"
+  var sentenceTwo = " say when the engineer ";
+  var sentenceThree = " to link up a .scss "
+  var sentenceFour = " sassing me!"
   var fullSentence = sentenceOne + wordOne + sentenceTwo + wordTwo + sentenceThree + wordThree + wordFour + sentenceFour;
   return fullSentence;
 
